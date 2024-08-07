@@ -83,29 +83,34 @@ int main(int argc,char **argv)
 	const uint64_t id = ZT_WORLD_ID_EARTH;
 	const uint64_t ts = 1567191349589ULL; // August 30th, 2019
 
-	// Los Angeles
+	// China
 	roots.push_back(World::Root());
-	roots.back().identity = Identity("3a46f1bf30:0:76e66fab33e28549a62ee2064d1843273c2c300ba45c3f20bef02dbad225723bb59a9bb4b13535730961aeecf5a163ace477cceb0727025b99ac14a5166a09a3");
-	roots.back().stableEndpoints.push_back(InetAddress("185.180.13.82/9993"));
-	roots.back().stableEndpoints.push_back(InetAddress("2a02:6ea0:c815::/9993"));
+	roots.back().identity = Identity("cb465fc568:0:cc082555d94e293edd0b5d19a8fa3ff42a752d469fbda06f5c5979a2d4124c31b0590cb71875e4480457c3919d3ad76c1de5897f10e3d3770a8c63317f2ffe6c");
+	roots.back().stableEndpoints.push_back(InetAddress("47.109.147.226/9993"));
+
+	// Los Angeles
+	//roots.push_back(World::Root());
+	//roots.back().identity = Identity("3a46f1bf30:0:76e66fab33e28549a62ee2064d1843273c2c300ba45c3f20bef02dbad225723bb59a9bb4b13535730961aeecf5a163ace477cceb0727025b99ac14a5166a09a3");
+	//roots.back().stableEndpoints.push_back(InetAddress("185.180.13.82/9993"));
+	//roots.back().stableEndpoints.push_back(InetAddress("2a02:6ea0:c815::/9993"));
 
 	// Miami
-	roots.push_back(World::Root());
-	roots.back().identity = Identity("de8950a8b2:0:1b3ada8251b91b6b6fa6535b8c7e2460918f4f729abdec97d3c7f3796868fb02f0de0b0ee554b2d59fc3524743eebfcf5315e790ed6d92db5bd10c28c09b40ef");
-	roots.back().stableEndpoints.push_back(InetAddress("207.246.73.245/443"));
-	roots.back().stableEndpoints.push_back(InetAddress("2001:19f0:9002:5cb:ec4:7aff:fe8f:69d9/443"));
+	//roots.push_back(World::Root());
+	//roots.back().identity = Identity("de8950a8b2:0:1b3ada8251b91b6b6fa6535b8c7e2460918f4f729abdec97d3c7f3796868fb02f0de0b0ee554b2d59fc3524743eebfcf5315e790ed6d92db5bd10c28c09b40ef");
+	//roots.back().stableEndpoints.push_back(InetAddress("207.246.73.245/443"));
+	//roots.back().stableEndpoints.push_back(InetAddress("2001:19f0:9002:5cb:ec4:7aff:fe8f:69d9/443"));
 
 	// Tokyo
-	roots.push_back(World::Root());
-	roots.back().identity = Identity("34e0a5e174:0:93efb50934788f856d5cfb9ca5be88e85b40965586b75befac900df77352c145a1ba7007569d37c77bfe52c0999f3bdc67a47a4a6000b720a883ce47aa2fb7f8");
-	roots.back().stableEndpoints.push_back(InetAddress("147.75.92.2/443"));
-	roots.back().stableEndpoints.push_back(InetAddress("2604:1380:3000:7100::1/443"));
+	//roots.push_back(World::Root());
+	//roots.back().identity = Identity("34e0a5e174:0:93efb50934788f856d5cfb9ca5be88e85b40965586b75befac900df77352c145a1ba7007569d37c77bfe52c0999f3bdc67a47a4a6000b720a883ce47aa2fb7f8");
+	//roots.back().stableEndpoints.push_back(InetAddress("147.75.92.2/443"));
+	//roots.back().stableEndpoints.push_back(InetAddress("2604:1380:3000:7100::1/443"));
 
 	// Amsterdam
-	roots.push_back(World::Root());
-	roots.back().identity = Identity("992fcf1db7:0:206ed59350b31916f749a1f85dffb3a8787dcbf83b8c6e9448d4e3ea0e3369301be716c3609344a9d1533850fb4460c50af43322bcfc8e13d3301a1f1003ceb6");
-	roots.back().stableEndpoints.push_back(InetAddress("195.181.173.159/443"));
-	roots.back().stableEndpoints.push_back(InetAddress("2a02:6ea0:c024::/443"));
+	//roots.push_back(World::Root());
+	//roots.back().identity = Identity("992fcf1db7:0:206ed59350b31916f749a1f85dffb3a8787dcbf83b8c6e9448d4e3ea0e3369301be716c3609344a9d1533850fb4460c50af43322bcfc8e13d3301a1f1003ceb6");
+	//roots.back().stableEndpoints.push_back(InetAddress("195.181.173.159/443"));
+	//roots.back().stableEndpoints.push_back(InetAddress("2a02:6ea0:c024::/443"));
 
 	// Alice
 	//roots.push_back(World::Root());
